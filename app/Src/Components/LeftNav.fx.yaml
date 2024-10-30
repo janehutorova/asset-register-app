@@ -8,13 +8,10 @@ LeftNav As CanvasComponent:
 
     conToggle As groupContainer.manualLayoutContainer:
         BorderColor: =RGBA(255, 255, 255, 1)
-        DropShadow: =DropShadow.Light
         Fill: =ColorValue(myTheme.DarkColor)
         Height: =20
-        RadiusBottomLeft: =4
-        RadiusBottomRight: =4
-        RadiusTopLeft: =4
-        RadiusTopRight: =4
+        LayoutDirection: =LayoutDirection.Manual
+        LayoutMode: =LayoutMode.Auto
         Width: =20
         X: =Parent.Width - Self.Width - 2
         Y: |
