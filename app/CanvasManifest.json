@@ -103,7 +103,7 @@
       "zeroalltabindexes": true
     },
     "Author": "",
-    "BindingErrorCount": 1,
+    "BindingErrorCount": 0,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -142,7 +142,6 @@
     "Catalogue Screen",
     "History Screen",
     "Admin Screen",
-    "Add Screen",
-    "Screen1"
+    "Add Screen"
   ]
 }

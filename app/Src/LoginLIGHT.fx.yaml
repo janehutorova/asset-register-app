@@ -56,6 +56,7 @@ LoginLIGHT As screen:
         FocusedBorderThickness: =4
         Height: =40.56
         HoverFill: =RGBA(0, 120, 212, 1)
+        OnSelect: =Navigate('Add Screen')
         PressedFill: =RGBA(0, 120, 212, 1)
         Width: =262
         X: =35
