@@ -1,1 +1,24 @@
-{}
+{
+  "07c3ebfa-16ed-4d94-9a0b-39992f04af63": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/jayawan/releases/v1.0.1697/1.0.1697.3786/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://lmglobaltechnology.sharepoint.com/sites/LMGAssetRegisterProject": {
+        "dataSources": {
+          "Requests": {
+            "tableName": "ab7666d5-bb99-4c75-bcf0-6b92152a7499"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Requests"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "07c3ebfa-16ed-4d94-9a0b-39992f04af63"
+  }
+}
