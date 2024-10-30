@@ -24,7 +24,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 149,
+                  "charOffset": 137,
                   "snippet": {
                     "text": "{"
                   }
@@ -65,7 +65,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 649,
+                  "charOffset": 581,
                   "snippet": {
                     "text": ")"
                   }
@@ -102,7 +102,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 2432,
+                  "charOffset": 2364,
                   "snippet": {
                     "text": ","
                   }
@@ -139,7 +139,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 2435,
+                  "charOffset": 2367,
                   "snippet": {
                     "text": "}"
                   }
