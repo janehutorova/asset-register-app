@@ -1,5 +1,38 @@
 App As appinfo:
     BackEnabled: =false
+    Formulas: |-
+        =MenuItems = 
+        Table(
+            {
+                ID: 1,
+                Namer: "Home",
+                Icon: "",
+                Screen: App.ActiveScreen
+            }
+                {
+                ID: 2,
+                Namer: "Catalogue",
+                Icon: "",
+                Screen: App.ActiveScreen
+            }
+                {
+                ID: 3,
+                Namer: "Add",
+                Icon: "",
+                Screen: App.ActiveScreen
+            }
+                {
+                ID: 4,
+                Namer: "History",
+                Icon: "",
+                Screen: App.ActiveScreen
+            }
+                {
+                ID: 5,
+                Namer: "Admin",
+                Icon: "",
+                Screen: App.ActiveScreen
+            }
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
