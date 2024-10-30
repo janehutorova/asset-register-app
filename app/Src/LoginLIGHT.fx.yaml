@@ -1,0 +1,86 @@
+LoginLIGHT As screen:
+    Fill: =RGBA(135, 83, 168, 1)
+    Height: =568
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+    Width: =320
+
+    "'Welcome!' As label":
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Height: =48
+        LineHeight: =1.2102273
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Size: =30
+        Text: ="Welcome! "
+        VerticalAlign: =VerticalAlign.Top
+        Width: =196
+        X: =70
+        Y: =211
+        ZIndex: =1
+
+    "'LMG Mobile Asset Register' As label":
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        Color: =RGBA(72.15938, 41.880207, 91.375, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Height: =18
+        LineHeight: =1.2102273
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Size: =11.25
+        Text: ="LMG Mobile Asset Register"
+        VerticalAlign: =VerticalAlign.Top
+        Width: =200
+        X: =66
+        Y: =268
+        ZIndex: =2
+
+    Gallery As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderThickness: =1
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(172, 70, 108, 1)
+        FocusedBorderThickness: =4
+        Height: =72
+        HoverFill: =RGBA(0, 120, 212, 1)
+        PressedFill: =RGBA(0, 120, 212, 1)
+        Width: =262
+        X: =35
+        Y: =323
+        ZIndex: =3
+
+    "'Log in' As label":
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Height: =36
+        LineHeight: =1.2102273
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Size: =22.5
+        Text: ="Log in "
+        VerticalAlign: =VerticalAlign.Top
+        Width: =92
+        X: =120
+        Y: =341
+        ZIndex: =4
+
