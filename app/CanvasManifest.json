@@ -122,7 +122,7 @@
     "ManualOfflineProfileId": "",
     "Name": "Asset Register",
     "OriginatingVersion": "1.326",
-    "ParserErrorCount": 0,
+    "ParserErrorCount": 2,
     "ShowStatusBar": false
   },
   "PublishInfo": {
