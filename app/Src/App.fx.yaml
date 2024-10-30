@@ -33,6 +33,17 @@ App As appinfo:
                 Icon: "",
                 Screen: App.ActiveScreen
             }
+        );
+        
+        MenuIcons = 
+        {
+            Home: "",
+            Catalogue: "",
+            Add: "",
+            History: "",
+            Admin: "",
+        };
+            
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
