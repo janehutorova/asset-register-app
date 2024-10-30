@@ -1,0 +1,22 @@
+LeftNav As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =App.DesignHeight;
+    Width: =If (varMenuOpen, 200, 80)
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    ConToggle As groupContainer.manualLayoutContainer:
+        BorderColor: =RGBA(255,255,255,1)
+        DropShadow: =DropShadow.Light
+        Fill: =ColorValue(myTheme.Darkcolor)
+        Height: =20
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =20
+        X: =Parent.Width - Self.Width - 2
+        Y: =15
+        ZIndex: =1
+

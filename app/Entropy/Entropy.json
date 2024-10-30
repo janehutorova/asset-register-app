@@ -1,5 +1,7 @@
 {
-  "ComponentIndexes": {},
+  "ComponentIndexes": {
+    "LeftNav": 6
+  },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "Add Screen": 4,
@@ -9,6 +11,7 @@
     "Button2": 26,
     "Canvas1": 7,
     "Catalogue Screen": 30,
+    "ConToggle": 39,
     "DataCard1": 8,
     "DatePicker1": 16,
     "DatePicker1_1": 18,
@@ -23,6 +26,7 @@
     "Host": 3,
     "Image1": 24,
     "Label1": 6,
+    "LeftNav": 38,
     "LMG Mobile Asset Register": 35,
     "Log in": 37,
     "LoginLIGHT": 33,
@@ -41,19 +45,30 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/30/2024 12:54:04",
+  "HeaderLastSavedDateTimeUTC": "10/30/2024 13:13:05",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {},
+  "LocalConnectionIDReferences": {
+    "69081b59-9033-49a3-9c78-3f33d8a0da39": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/8eec341035304bc6bb97ea939014ec3b\""
+  },
   "LocalDatabaseReferencesAsEmpty": true,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
+  "LocalResourceFileNames": {
+    "LMGlobal-Technology-brand-icon-RGB": "3de47a5a-0b6e-4fab-a579-e30c3685904f.png"
+  },
+  "LocalResourceRootPaths": {
+    "LMGlobal-Technology-brand-icon-RGB": "https://docserverpwaprodwuk.blob.core.windows.net/af37f3c2-0964-4b58-919d-7ab981ab8b3e-1/resource/7035c19c-5a8b-48bb-8428-63ffdff52459.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-30T13%3A02%3A56Z&ske=2024-10-31T13%3A17%3A56Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-31T13%3A17%3A56Z&sr=b&sp=r&sig=BlI2AkCQttix7vxur2hW%2FviiIVTBOF5CC9NUNZ2Vzk0%3D"
+  },
   "OldLogoFileName": "logo.jpg",
-  "OrderComponentMetadata": {},
-  "OrderComponentTemplate": {},
+  "OrderComponentMetadata": {
+    "a52a55f770534716838e38b8c903fe7e": 0
+  },
+  "OrderComponentTemplate": {
+    "a52a55f770534716838e38b8c903fe7e": 0
+  },
   "OrderDataSource": {
-    "CustomGallerySample": 0,
-    "DropDownSample": 1,
-    "Requests": 2
+    "CustomGallerySample": 1,
+    "DropDownSample": 2,
+    "Office365Users": 0,
+    "Requests": 3
   },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
@@ -64,6 +79,7 @@
     "dropdown": 3,
     "fluidGrid": 2,
     "gallery": 7,
+    "groupContainer": 9,
     "image": 8,
     "label": 1,
     "rectangle": 0,
@@ -77,6 +93,7 @@
     "Button2": {},
     "Canvas1": {},
     "Catalogue Screen": {},
+    "ConToggle": {},
     "DataCard1": {},
     "DatePicker1": {},
     "DatePicker1_1": {},
@@ -91,6 +108,7 @@
     "Host": {},
     "Image1": {},
     "Label1": {},
+    "LeftNav": {},
     "LMG Mobile Asset Register": {},
     "Log in": {},
     "LoginLIGHT": {},
@@ -117,6 +135,7 @@
     "Button2": 23,
     "Canvas1": 4,
     "Catalogue Screen": 29,
+    "ConToggle": 0,
     "DataCard1": 6,
     "DatePicker1": 14,
     "DatePicker1_1": 16,
@@ -131,6 +150,7 @@
     "Host": 0,
     "Image1": 21,
     "Label1": 3,
+    "LeftNav": 0,
     "LMG Mobile Asset Register": 34,
     "Log in": 36,
     "LoginLIGHT": 32,
@@ -148,6 +168,7 @@
     "Welcome!": 33
   },
   "ResourcesJsonIndices": {
+    "Image-LMGlobal-Technology-brand-icon-RGB": 1,
     "Image-SampleImage": 0
   },
   "RuleScreenIdWithoutScreen": {},

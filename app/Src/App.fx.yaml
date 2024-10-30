@@ -1,6 +1,6 @@
 App As appinfo:
     BackEnabled: =false
-    Formulas: |
+    Formulas: |-
         =MenuItems = 
         Table(
             {
@@ -49,6 +49,13 @@ App As appinfo:
             Darkcolor:"#7049ba",
             LightColor: "#6e47b8"
         };
+        
+        CurrentUser = Office365Users.UserProfileV2(User().Email);
+        CompanyName = "Company Name";
+        CompanyLogo = 'LMGlobal-Technology-brand-icon-RGB';
+    OnStart: |
+        =Set(VarMenuSelected, 1};
+        Set(varMenuOpen, false);
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:

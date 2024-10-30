@@ -103,7 +103,7 @@
       "zeroalltabindexes": true
     },
     "Author": "",
-    "BindingErrorCount": 0,
+    "BindingErrorCount": 3,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -122,7 +122,7 @@
     "ManualOfflineProfileId": "",
     "Name": "Asset Register",
     "OriginatingVersion": "1.326",
-    "ParserErrorCount": 2,
+    "ParserErrorCount": 6,
     "ShowStatusBar": false
   },
   "PublishInfo": {
