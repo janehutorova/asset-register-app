@@ -1,3 +1,21 @@
 "'Add Screen' As screen":
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
+    Label1 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(219, 219, 219, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =83
+        Size: =21
+        Text: ="Asset Request"
+        Width: =640
+        ZIndex: =1
+
