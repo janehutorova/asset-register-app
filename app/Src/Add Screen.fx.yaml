@@ -1,4 +1,4 @@
-"'Add Screen' As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+"'Add Screen' As screen":
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
     RectQuickActionBar2 As rectangle:
