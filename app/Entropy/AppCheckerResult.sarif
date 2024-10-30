@@ -102,7 +102,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 684,
+                  "charOffset": 1088,
                   "snippet": {
                     "text": ","
                   }
@@ -139,7 +139,7 @@
                 },
                 "region": {
                   "charLength": 1,
-                  "charOffset": 687,
+                  "charOffset": 1091,
                   "snippet": {
                     "text": "}"
                   }
