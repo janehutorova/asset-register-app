@@ -2,22 +2,22 @@
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
-    "Add Screen": 11,
-    "Admin Screen": 13,
+    "Add Screen": 5,
+    "Admin Screen": 7,
     "App": 1,
-    "Catalogue Screen": 10,
-    "Gallery": 7,
-    "History Screen": 12,
-    "Home Screen": 9,
+    "Catalogue Screen": 4,
+    "Gallery": 11,
+    "History Screen": 6,
+    "Home Screen": 13,
     "Host": 3,
-    "LMG Mobile Asset Register": 6,
-    "Log in": 8,
-    "LoginLIGHT": 4,
-    "Welcome!": 5
+    "LMG Mobile Asset Register": 10,
+    "Log in": 12,
+    "LoginLIGHT": 8,
+    "Welcome!": 9
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/30/2024 10:30:28",
+  "HeaderLastSavedDateTimeUTC": "10/30/2024 11:20:58",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": true,
@@ -68,13 +68,13 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.1109264,
+    "AnalysisLoadTime": 0.0696162,
     "ControlCount": {
       "label": 3,
       "rectangle": 1,
-      "screen": 1
+      "screen": 6
     },
-    "DeserializationLoadTime": 1.3507052
+    "DeserializationLoadTime": 0.5171087
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
