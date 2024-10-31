@@ -1,3 +1,415 @@
 "'Admin Screen' As screen":
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
+    Group1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =28
+
+        Rectangle5_1 As rectangle:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Fill: =RGBA(77, 77, 77, 1)
+            Height: =91
+            Width: =1136
+            Y: =40
+            ZIndex: =1
+
+        Rectangle8 As rectangle:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Fill: =RGBA(128, 128, 128, 1)
+            Height: =640
+            Width: =1136
+            ZIndex: =2
+
+        Rectangle5 As rectangle:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Fill: =RGBA(77, 77, 77, 1)
+            Height: =640
+            Width: =199
+            X: =40
+            ZIndex: =3
+
+        Icon8 As icon.FilterFlat:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Height: =39
+            Icon: =Icon.FilterFlat
+            Width: =33
+            X: =1103
+            Y: =65
+            ZIndex: =4
+
+        Container1 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =44
+            RadiusBottomLeft: =20
+            RadiusBottomRight: =20
+            RadiusTopLeft: =20
+            RadiusTopRight: =20
+            Width: =171
+            X: =55
+            Y: =149
+            ZIndex: =5
+
+            Rectangle10 As rectangle:
+                BorderColor: =RGBA(0, 18, 107, 1)
+                Fill: =RGBA(203, 102, 102, 1)
+                Height: =44
+                Width: =170
+                ZIndex: =1
+
+        Icon9 As icon.Home:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Height: =29
+            Icon: =Icon.Home
+            Width: =45
+            X: =119
+            Y: =156
+            ZIndex: =6
+
+        Container2 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =288
+            RadiusBottomLeft: =15
+            RadiusBottomRight: =15
+            RadiusTopLeft: =15
+            RadiusTopRight: =15
+            Width: =698
+            X: =263
+            Y: =142
+            ZIndex: =7
+
+            Container2_1 As groupContainer.manualLayoutContainer:
+                DropShadow: =DropShadow.Light
+                Height: =288
+                RadiusBottomLeft: =15
+                RadiusBottomRight: =15
+                RadiusTopLeft: =15
+                RadiusTopRight: =15
+                Width: =698
+                ZIndex: =2
+
+                Rectangle11_1 As rectangle:
+                    BorderColor: =RGBA(0, 18, 107, 1)
+                    Fill: =RGBA(77, 77, 77, 1)
+                    Height: =288
+                    Width: =Parent.Width
+                    ZIndex: =1
+
+        Title1 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =25
+            Text: ="Chart Title"
+            Width: =760
+            X: =239
+            Y: =163
+            ZIndex: =8
+
+        ColumnChart2 As barChart:
+            BorderColor: =RGBA(0, 13, 75, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            Height: =303
+            ItemColorSet: =[RGBA(49, 130, 93, 1),RGBA(48,166,103, 1), RGBA(94,193,108,1), RGBA(246,199,144,1), RGBA(247,199,114,1), RGBA(247,180,91,1), RGBA(246,143,100,1), RGBA(212,96,104,1), RGBA(148, 110, 176, 1), RGBA(118, 154, 204, 1), RGBA(96, 197, 234, 1)]
+            Items: =ColumnChartSample
+            Width: =692
+            X: =273
+            Y: =120
+            ZIndex: =9
+
+        Container2_2 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =288
+            RadiusBottomLeft: =15
+            RadiusBottomRight: =15
+            RadiusTopLeft: =15
+            RadiusTopRight: =15
+            Width: =698
+            X: =263
+            Y: =352
+            ZIndex: =10
+
+            Container2_3 As groupContainer.manualLayoutContainer:
+                DropShadow: =DropShadow.Light
+                Height: =288
+                RadiusBottomLeft: =15
+                RadiusBottomRight: =15
+                RadiusTopLeft: =15
+                RadiusTopRight: =15
+                Width: =698
+                ZIndex: =2
+
+                Rectangle11_2 As rectangle:
+                    BorderColor: =RGBA(0, 18, 107, 1)
+                    Fill: =RGBA(77, 77, 77, 1)
+                    Height: =288
+                    Width: =Parent.Width
+                    ZIndex: =1
+
+        Title2 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =15
+            Text: ="Chart Title"
+            Width: =684
+            X: =302
+            Y: =465
+            ZIndex: =11
+
+        LineChart2 As lineChart:
+            BorderColor: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(141, 198, 63, 1)
+            Height: =241
+            ItemColorSet: =[RGBA(49, 130, 93, 1),RGBA(48,166,103, 1), RGBA(94,193,108,1), RGBA(246,199,144,1), RGBA(247,199,114,1), RGBA(247,180,91,1), RGBA(246,143,100,1), RGBA(212,96,104,1), RGBA(148, 110, 176, 1), RGBA(118, 154, 204, 1), RGBA(96, 197, 234, 1)]
+            Items: =LineChartSample
+            Size: =11
+            Width: =684
+            X: =302
+            Y: =399
+            ZIndex: =12
+
+        Container3 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =288
+            RadiusBottomLeft: =15
+            RadiusBottomRight: =15
+            RadiusTopLeft: =15
+            RadiusTopRight: =15
+            Width: =334
+            X: =802
+            Y: =142
+            ZIndex: =13
+
+            Rectangle12 As rectangle:
+                BorderColor: =RGBA(0, 18, 107, 1)
+                Fill: =RGBA(77, 77, 77, 1)
+                Height: =288
+                Width: =Parent.Width
+                ZIndex: =1
+
+        Container4 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =288
+            RadiusBottomLeft: =15
+            RadiusBottomRight: =15
+            RadiusTopLeft: =15
+            RadiusTopRight: =15
+            Width: =334
+            X: =802
+            Y: =352
+            ZIndex: =14
+
+            Rectangle13 As rectangle:
+                BorderColor: =RGBA(0, 18, 107, 1)
+                Fill: =RGBA(77, 77, 77, 1)
+                Height: =Parent.Height
+                Width: =Parent.Width
+                ZIndex: =1
+
+        Title5 As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =22
+            Text: ="Chart Title"
+            Width: =342
+            X: =794
+            Y: =149
+            ZIndex: =15
+
+        PieChart3 As pieChart:
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            Height: =349
+            ItemColorSet: =[RGBA(49, 130, 93, 1),RGBA(48,166,103, 1), RGBA(94,193,108,1), RGBA(246,199,144,1), RGBA(247,199,114,1), RGBA(247,180,91,1), RGBA(246,143,100,1), RGBA(212,96,104,1), RGBA(148, 110, 176, 1), RGBA(118, 154, 204, 1), RGBA(96, 197, 234, 1)]
+            Items: =PieChartSample
+            Width: =342
+            X: =794
+            Y: =108
+            ZIndex: =16
+
+        Legend5 As legend:
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(255, 255, 255, 1)
+            Height: =288
+            ItemColorSet: =PieChart3.ItemColorSet
+            Items: =PieChart3.SeriesLabels
+            Size: =16
+            Width: =334
+            X: =802
+            Y: =352
+            ZIndex: =17
+
+        Container5 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =52
+            RadiusBottomLeft: =20
+            RadiusBottomRight: =20
+            RadiusTopLeft: =20
+            RadiusTopRight: =20
+            Width: =473
+            X: =263
+            Y: =54
+            ZIndex: =18
+
+            Rectangle14 As rectangle:
+                BorderColor: =RGBA(0, 18, 107, 1)
+                Fill: =RGBA(241, 244, 249, 1)
+                Height: =52
+                Width: =Parent.Width
+                ZIndex: =1
+
+        TextInput2 As text:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            BorderThickness: =0
+            Color: =RGBA(0, 0, 0, 1)
+            Default: =
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =46
+            HintText: ="Search..."
+            HoverBorderColor: =RGBA(0, 18, 107, 1)
+            HoverColor: =RGBA(0, 0, 0, 1)
+            HoverFill: =RGBA(186, 202, 226, 1)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =15
+            Width: =406
+            X: =302
+            Y: =55
+            ZIndex: =19
+
+        Icon10 As icon.Search:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =RGBA(0, 18, 107, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Height: =28
+            Icon: =Icon.Search
+            Width: =41
+            X: =263
+            Y: =66
+            ZIndex: =20
+
+        Container6 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =44
+            RadiusBottomLeft: =15
+            RadiusBottomRight: =15
+            RadiusTopLeft: =15
+            RadiusTopRight: =15
+            Width: =170
+            X: =55
+            Y: =204
+            ZIndex: =21
+
+            Rectangle15 As rectangle:
+                BorderColor: =RGBA(0, 18, 107, 1)
+                Fill: =RGBA(203, 102, 102, 1)
+                Height: =Parent.Height
+                Width: =Parent.Width
+                ZIndex: =1
+
+        Icon11 As icon.Add:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Height: =29
+            Icon: =Icon.Add
+            Width: =40
+            X: =124
+            Y: =212
+            ZIndex: =22
+
+        Container7 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Fill: =RGBA(203, 102, 102, 1)
+            Height: =44
+            RadiusBottomLeft: =15
+            RadiusBottomRight: =15
+            RadiusTopLeft: =15
+            RadiusTopRight: =15
+            Width: =170
+            X: =54
+            Y: =260
+            ZIndex: =23
+
+            Rectangle16 As rectangle:
+                BorderColor: =RGBA(0, 18, 107, 1)
+                Fill: =RGBA(203, 102, 102, 1)
+                Height: =Parent.Height
+                Width: =Parent.Width
+                ZIndex: =1
+
+        Icon12 As icon.Flag:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Height: =31
+            Icon: =Icon.Flag
+            Width: =32
+            X: =130
+            Y: =267
+            ZIndex: =24
+
+        Container8 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =44
+            RadiusBottomLeft: =15
+            RadiusBottomRight: =15
+            RadiusTopLeft: =15
+            RadiusTopRight: =15
+            Width: =170
+            X: =55
+            Y: =316
+            ZIndex: =25
+
+            Rectangle17 As rectangle:
+                BorderColor: =RGBA(0, 18, 107, 1)
+                Fill: =RGBA(203, 102, 102, 1)
+                Height: =Parent.Height
+                Width: =Parent.Width
+                ZIndex: =1
+
+        Icon13 As icon.ToolsWrench:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Height: =28
+            Icon: =Icon.ToolsWrench
+            Width: =33
+            X: =127
+            Y: =324
+            ZIndex: =26
+
+        Image1 As image:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Height: =80
+            Image: =Untitled
+            X: =91
+            Y: =40
+            ZIndex: =27
+
